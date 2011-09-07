@@ -29,7 +29,7 @@
 package net.vis4.text.hyphenation 
 {
 	import adobe.utils.ProductManager;
-	import com.adobe.serialization.json.JSON;
+	//import com.adobe.serialization.json.JSON;
 	import flash.events.Event;
 	import flash.net.URLLoader;
 	import flash.net.URLLoaderDataFormat;
@@ -37,7 +37,6 @@ package net.vis4.text.hyphenation
 	import flash.text.*;
 	import net.vis4.text.hyphenation.patterns.*;
 	import net.vis4.utils.HtmlParser;
-	import org.osflash.thunderbolt.Logger;
 	
 	public class Hyphenator
 	{

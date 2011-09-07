@@ -14,10 +14,13 @@ Step 2: Prepare a text field
 
 	var tf:TextField = new TextField();
 	tf.text = 'Lorem Ipsum dolor....';
+	tf.width= 200;
+	tf.wordWrap = true;
+	tf.autoSize = 'left';
 
 Step 3: Hyphenate the text field
 
-	Hyphenator.hyphenateTextField(tf);
+	Hyphenator.hyphenateTextField('de', tf);
 	
 That's it!
 
